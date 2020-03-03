@@ -20,8 +20,15 @@ $(function () {
   });
 });
 
-  // LIGHTBOX INIT
+  // LIGHTBOX SLIDER INIT - Photo gallery (Index.html, line 179)
 $(document).on('click', '[data-toggle="lightbox"]', function (event) {
   event.preventDefault();
   $(this).ekkoLightbox();
+});
+
+  //SLICK SLIDER (About.html, line 139)
+$('.slider').slick({
+  infinite: true,
+  slideToShow: 1,
+  slideToScroll: 1
 });
