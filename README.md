@@ -6,7 +6,7 @@
 В блоке "See What We Do" реализовано модальное окно в воспроизведением видео с youtube. 
 В блоке "Photo gallery" реализовано модальное окно. 
   
-  Page "Services"
+  Page "Abou Us"
 В блоке "testimonials" работает слайдшоу на плагине (slick-carousel) 
 
   Page "Services"
