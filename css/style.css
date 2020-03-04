@@ -11,7 +11,8 @@ body {
 }
 
 .navbar  .nav-item.active {
-    border-left: #444444 3px solid ;
+    border-left: #ffffff 3px solid ;
+    opacity: 50%;
 }
 
 .carousel-item {
@@ -63,6 +64,11 @@ body {
     color: #ffffff;
 }
 
+#gallery .img-fluid {
+    overflow-x:hidden ;
+    overflow-y:hidden ;
+}
+
 #page-header {
     height: 200px;
     background: url("../img/image1.jpg");
@@ -89,4 +95,9 @@ body {
 #faq .card-body,
 #faq .card-header {
     background: #333333;
+}
+
+#main-footer {
+    background: #000;
+    color: white;
 }
